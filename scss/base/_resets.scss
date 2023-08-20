@@ -7,7 +7,7 @@
 }
 
 *:focus {
-  outline: 2px dotted $peach-color ;
+  outline: 2px dotted $peach-color;
   outline-offset: 0.3s;
 }
 
@@ -50,7 +50,9 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
+  background-color: red;
 }
+
 
 .container {
   width: 100%;
@@ -89,7 +91,6 @@ body {
     }
   }
 }
-
 
 .web-hero__container {
   // width: 100%;
@@ -154,68 +155,57 @@ body {
 }
 @media screen and (max-width: 900px) {
   .wrapper__designs {
-    
-    h2{
-        font-size: 3rem;
+    h2 {
+      font-size: 3rem;
     }
   }
 }
-@media screen and (max-width:820px) {
-    .wrapper__designs{
-        .design__nav-text {
-            font-weight: 500px;
-            font-size: 1.5rem;
-            line-height: 1.44;
-            letter-spacing: 2px;
-            text-align: center;
-            cursor: pointer;
-          }
-        .app-designs {
-            padding: 5rem 4rem;
-            
-          }
-          .graphic__designs {
-           padding: 5rem 5rem;
-            
-              
-          }
+@media screen and (max-width: 820px) {
+  .wrapper__designs {
+    .design__nav-text {
+      font-weight: 500px;
+      font-size: 1.5rem;
+      line-height: 1.44;
+      letter-spacing: 2px;
+      text-align: center;
+      cursor: pointer;
     }
+    .app-designs {
+      padding: 5rem 4rem;
+    }
+    .graphic__designs {
+      padding: 5rem 5rem;
+    }
+  }
 }
-@media screen and (max-width:700px) {
-    .wrapper__designs{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        .app__designs {
-            padding: 5rem 4rem;
-            
-            width: 100%;
-            
-          }
-          .graphic__designs {
-           
-            width: 100%;
-            
-              
-          }
+@media screen and (max-width: 700px) {
+  .wrapper__designs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .app__designs {
+      padding: 5rem 4rem;
+
+      width: 100%;
     }
-} 
+    .graphic__designs {
+      width: 100%;
+    }
+  }
+}
 
-
-.web-hero__dubl{
+.web-hero__dubl {
+  display: flex;
+  flex-wrap: wrap;
+  // align-items: flex-start;
+  justify-content: flex-start;
+}
+@media screen and (max-width: 850px) {
+  .web-hero__dubl {
     display: flex;
     flex-wrap: wrap;
-    // align-items: flex-start;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
+  }
 }
-@media screen and (max-width:850px) {
-    .web-hero__dubl{
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-    } 
-}
-    
-
