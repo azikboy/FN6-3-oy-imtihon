@@ -1,0 +1,28 @@
+.btn{
+  padding: 1.7rem 2.45rem;
+  border-radius: 0.8rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.white__btn{
+  color: $black-color;
+  background-color: $white-color;
+  transition: 0.3s;
+}
+.white__btn:hover{
+   color: $white-color;
+   background-color: $light-peach-color;
+  transform: rotate(15deg);
+
+}
+.peach__btn{
+  color: $white-color;
+  background-color: $peach-color;
+  transition: 0.3s;
+}
+.peach__btn:hover{
+  background-color: $light-peach-color;
+  transform: rotate(15deg);
+}
